@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route('index',{path:'/'});
+  this.resource('pumpers',function(){
+      this.resource('pumper',{path:'/:pumper_id'});
+  });
 });
 
 export default Router;
