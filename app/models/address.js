@@ -23,7 +23,7 @@ Address.reopenClass({
       postalCode:'44760',
       city:'Guadalajara',
       state:'Jalisco',
-      pumper:[1]
+      pumper:1
     },
     {
       id:2,
@@ -34,7 +34,7 @@ Address.reopenClass({
       postalCode:'44610',
       city:'Guadalajara',
       state:'Jalisco',
-      pumper:[2]
+      pumper:2
     },
     {
       id:3,
@@ -45,7 +45,7 @@ Address.reopenClass({
       postalCode:'44790',
       city:'Guadalajara',
       state:'Jalisco',
-      pumper:[3]
+      pumper:3
     },
     {
       id:4,
@@ -56,7 +56,7 @@ Address.reopenClass({
       postalCode:'44615',
       city:'Zapopan',
       state:'Jalisco',
-      pumper:[4]
+      pumper:4
     },
     {
       id:5,
@@ -67,7 +67,7 @@ Address.reopenClass({
       postalCode:'44099',
       city:'Zapopan',
       state:'Jalisco',
-      pumper:[5]
+      pumper:5
     },
     {
       id:6,
@@ -78,8 +78,7 @@ Address.reopenClass({
       postalCode:'44100',
       city:'Guadalajara',
       state:'Jalisco',
-      pumper:[],
-      local:[1]
+      local:1
     },
     {
       id:7,
@@ -90,8 +89,7 @@ Address.reopenClass({
       postalCode:'44099',
       city:'Guadalajara',
       state:'Jalisco',
-      pumper:[],
-      local:[2]
+      local:2
     }
   ]
 });

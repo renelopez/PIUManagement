@@ -15,7 +15,7 @@ Local.reopenClass({
     {
       id:1,
       name:'Rockoparty',
-      address:[6],
+      address:6,
       startTime:900,
       endTime:2130,
       startDay:'Monday',
@@ -25,7 +25,7 @@ Local.reopenClass({
     {
       id:2,
       name:'La Aurora',
-      address:[7],
+      address:7,
       startTime:900,
       endTime:2130,
       startDay:'Monday',

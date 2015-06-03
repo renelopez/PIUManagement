@@ -32,7 +32,7 @@ Pumper.reopenClass({
       addresses:[1],
       locals:[1],
       categories:[1],
-      zone:[1]
+      zone:1
     },
     {
       id:2,
@@ -48,7 +48,7 @@ Pumper.reopenClass({
       addresses:[2],
       locals:[1],
       categories:[1],
-      zone:[1]
+      zone:1
     },
     {
       id:3,
@@ -64,7 +64,7 @@ Pumper.reopenClass({
       addresses:[3],
       locals:[1],
       categories:[1],
-      zone:[1]
+      zone:1
     },{
       id:4,
       name:'Nayeli',
@@ -79,7 +79,7 @@ Pumper.reopenClass({
       addresses:[4],
       locals:[1],
       categories:[2],
-      zone:[1]
+      zone:1
     },
     {
       id:5,
@@ -95,7 +95,7 @@ Pumper.reopenClass({
       addresses:[5],
       locals:[1,2],
       categories:[1],
-      zone:[1]
+      zone:1
     }
   ]
 });

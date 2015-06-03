@@ -18,7 +18,7 @@ Machine.reopenClass({
       model:'GX',
       gameVersion:'PRIME',
       creditPrice:'5',
-      local:[1]
+      local:1
     },
     {
       id:2,
@@ -27,7 +27,7 @@ Machine.reopenClass({
       model:'GX',
       gameVersion:'PRIME',
       creditPrice:'5',
-      local:[1]
+      local:1
     },
     {
       id:3,
@@ -36,7 +36,7 @@ Machine.reopenClass({
       model:'Hybrid',
       gameVersion:'Fiesta2',
       creditPrice:'4',
-      local:[2]
+      local:2
     }
   ]
 });
