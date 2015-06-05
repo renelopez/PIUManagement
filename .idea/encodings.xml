@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Brocfile.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/adapters/application.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/controllers/pumper.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/controllers/pumper/index.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/controllers/pumpers.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/address.js" charset="UTF-8" />
@@ -14,6 +15,7 @@
     <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/pumper.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/pumpers.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/styles/app.css" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/application.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/index.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/pumper.hbs" charset="UTF-8" />

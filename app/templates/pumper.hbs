@@ -3,8 +3,33 @@
         <div class="well">
             <p class="text-center">
               <img {{bind-attr src='model.photoUrl'}} class="img-thumbnail img-rounded"/>
+            <h4>{{model.name}} {{model.lastName}}</h4>
+            <h4>"{{model.nickName}}"</h4>
             </p>
-            <h4>{{model.name}}</h4>
+            <table class="table table-striped">
+                <tbody>
+                  <tr>
+                      <td>Email</td>
+                      <td>{{model.email}}</td>
+                  </tr>
+                  <tr>
+                      <td>Phone</td>
+                      <td>{{model.phone}}</td>
+                  </tr>
+                  <tr>
+                      <td>Birth Date</td>
+                      <td>{{model.birthDate}}</td>
+                  </tr>
+                  <tr>
+                      <td>Calories Burned</td>
+                      <td><span{{bind-attr class="isHot:hot:newbie"}}>{{model.caloriesBurned}}</span></td>
+                  </tr>
+                  <tr>
+                      <td>Debut Date</td>
+                      <td>{{model.debutDate}}</td>
+                  </tr>
+                </tbody>
+            </table>
         </div>
     </div>
   <div class="col-md-9">
