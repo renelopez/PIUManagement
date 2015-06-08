@@ -1,0 +1,33 @@
+<ol class="breadcrumb">
+    <ol class="breadcrumb">
+        <li>{{#link-to "pumper.index" model classNames='active'}}{{model.name}} {{model.lastName}} {{/link-to}}</li>
+        <li class="active">Locals</li>
+    </ol>
+</ol>
+
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Address name</th>
+        <th>External Number</th>
+        <th>Internal number</th>
+        <th>Colony</th>
+        <th>Postal Code</th>
+        <th>City</th>
+        <th>State</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each local in model.locals}}
+        <tr>
+            <td>{{local.name}}</td>
+            <td>{{local.externalNumber}}</td>
+            <td>{{local.internalNumber}}</td>
+            <td>{{local.colony}}</td>
+            <td>{{local.postalCode}}</td>
+            <td>{{local.city}}</td>
+            <td>{{local.state}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

@@ -8,6 +8,7 @@ var Address= DS.Model.extend({
   postalCode:DS.attr('number'),
   city:DS.attr('string'),
   state:DS.attr('string'),
+  type:DS.attr('string'),
   pumper:DS.belongsTo('pumper'),
   local:DS.belongsTo('local')
 });
