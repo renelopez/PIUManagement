@@ -10,10 +10,10 @@ var Pumper= DS.Model.extend({
   caloriesBurned:DS.attr('number'),
   debutDate:DS.attr('date'),
   photoUrl:DS.attr('string'),
-  addresses:DS.hasMany('address'),
-  locals:DS.hasMany('local'),
-  categories:DS.hasMany('category'),
-  zone:DS.belongsTo('zone')
+  addresses:DS.hasMany('address',{async:true}),
+  locals:DS.hasMany('local',{async:true}),
+  categories:DS.hasMany('category',{async:true}),
+  zone:DS.belongsTo('zone',{async:true})
 });
 
 Pumper.reopenClass({
@@ -31,7 +31,7 @@ Pumper.reopenClass({
       photoUrl:'http://www.gravatar.com/avatar/0cf15665a9146ba852bf042b0652780a?s=200',
       addresses:[1],
       locals:[1],
-      categories:[1],
+      categories:[1,3],
       zone:1
     },
     {

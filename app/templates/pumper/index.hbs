@@ -1,1 +1,7 @@
-<h1>Estoy en pumper {{model.name}}</h1>
+<ol class="breadcrumb">
+    <li class="active">{{model.name}} {{model.lastName}}</li>
+</ol>
+
+<ul>
+    <li>{{#link-to 'pumper.addresses' model}}Addresses{{/link-to}}</li>
+</ul>

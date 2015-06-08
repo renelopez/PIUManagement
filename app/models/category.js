@@ -20,7 +20,7 @@ Category.reopenClass({
     {
       id:3,
       name:'Freestyle',
-      pumpers:[]
+      pumpers:[1]
     }
   ]
 });

@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('index',{path:'/'});
   this.resource('pumpers');
   this.resource('pumper',{path:'/pumpers/:pumper_id'},function(){
-
+    this.resource('pumper.addresses',{path:'/addresses'});
   });
 });
 

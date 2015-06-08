@@ -1,0 +1,45 @@
+<div class="well">
+    <p class="text-center">
+        <img {{bind-attr src='pumper.photoUrl'}} class="img-thumbnail img-rounded"/>
+    <h4>{{pumper.name}} {{pumper.lastName}}</h4>
+    <h4>"{{pumper.nickName}}"</h4>
+    </p>
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>Email</td>
+            <td>{{pumper.email}}</td>
+        </tr>
+        <tr>
+            <td>Phone</td>
+            <td>{{pumper.phone}}</td>
+        </tr>
+        <tr>
+            <td>Birth Date</td>
+            <td>{{pumper.birthDate}}</td>
+        </tr>
+        <tr>
+            <td>Calories Burned</td>
+            <td><span {{bind-attr class="getCalorieClass"}}>{{pumper.caloriesBurned}}</span></td>
+        </tr>
+        <tr>
+            <td>Debut Date</td>
+            <td>{{pumper.debutDate}}</td>
+        </tr>
+        <tr>
+            <td>Zone</td>
+            <td>{{pumper.zone.name}}</td>
+        </tr>
+        <tr>
+            <td>Categories</td>
+            <td>
+                <ul>
+                {{#each category in pumper.categories}}
+                  <li>{{category.name}}</li>
+                {{/each}}
+                </ul>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
