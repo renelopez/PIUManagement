@@ -14,7 +14,8 @@ var Pumper= DS.Model.extend({
   locals:DS.hasMany('local',{async:true}),
   categories:DS.hasMany('category',{async:true}),
   songs:DS.hasMany('song',{async :true}),
-  zone:DS.belongsTo('zone',{async:true})
+  zone:DS.belongsTo('zone',{async:true}),
+  pumpersTournaments:DS.hasMany('pumperTournament',{async:true})
 });
 
 Pumper.reopenClass({
