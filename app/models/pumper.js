@@ -35,7 +35,8 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1,3],
       zone:1,
-      songs:[1]
+      songs:[1],
+      pumpersTournaments:[1,3]
     },
     {
       id:2,
@@ -52,7 +53,8 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1],
       zone:1,
-      songs:[1,2]
+      songs:[1,2],
+      pumpersTournaments:[2,4]
     },
     {
       id:3,

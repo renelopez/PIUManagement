@@ -1,0 +1,22 @@
+<ol class="breadcrumb">
+    <li>{{#link-to "pumper.index" model classNames='active'}}{{model.name}} {{model.lastName}} {{/link-to}}</li>
+    <li class="active">Tournaments</li>
+</ol>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Tournament</th>
+        <th>Pumper</th>
+        <th>Place</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each pumperTournament in model.pumpersTournaments}}
+        <tr>
+            <td>{{pumperTournament.tournament.name}}</td>
+            <td>{{pumperTournament.pumper.name}}</td>
+            <td>{{pumperTournament.place}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

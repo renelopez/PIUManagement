@@ -12,6 +12,7 @@ Router.map(function() {
     this.resource('pumper.addresses',{path:'/addresses'});
     this.resource('pumper.locals',{path:'/locals'});
     this.resource('pumper.songs',{path:'/songs'});
+    this.resource('pumper.tournaments',{path:'/tournaments'});
   });
 });
 
