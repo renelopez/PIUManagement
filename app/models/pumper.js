@@ -13,6 +13,7 @@ var Pumper= DS.Model.extend({
   addresses:DS.hasMany('address',{async:true}),
   locals:DS.hasMany('local',{async:true}),
   categories:DS.hasMany('category',{async:true}),
+  songs:DS.hasMany('song',{async :true}),
   zone:DS.belongsTo('zone',{async:true})
 });
 
@@ -32,7 +33,8 @@ Pumper.reopenClass({
       addresses:[1],
       locals:[1],
       categories:[1,3],
-      zone:1
+      zone:1,
+      songs:[1]
     },
     {
       id:2,
@@ -48,7 +50,8 @@ Pumper.reopenClass({
       addresses:[2],
       locals:[1],
       categories:[1],
-      zone:1
+      zone:1,
+      songs:[1,2]
     },
     {
       id:3,
@@ -64,7 +67,8 @@ Pumper.reopenClass({
       addresses:[3],
       locals:[1],
       categories:[1],
-      zone:1
+      zone:1,
+      songs:[1,3]
     },{
       id:4,
       name:'Nayeli',

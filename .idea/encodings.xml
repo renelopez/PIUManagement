@@ -12,6 +12,7 @@
     <file url="file://$PROJECT_DIR$/app/models/local.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/machine.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/pumper.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/models/song.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/models/zone.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/router.js" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/routes/pumper.js" charset="UTF-8" />
@@ -24,6 +25,7 @@
     <file url="file://$PROJECT_DIR$/app/templates/pumper/addresses.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/pumper/index.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/pumper/locals.hbs" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/templates/pumper/songs.hbs" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/app/templates/pumpers.hbs" charset="UTF-8" />
   </component>
 </project>

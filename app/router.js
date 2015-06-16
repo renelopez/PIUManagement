@@ -11,6 +11,7 @@ Router.map(function() {
   this.resource('pumper',{path:'/pumpers/:pumper_id'},function(){
     this.resource('pumper.addresses',{path:'/addresses'});
     this.resource('pumper.locals',{path:'/locals'});
+    this.resource('pumper.songs',{path:'/songs'});
   });
 });
 

@@ -1,0 +1,32 @@
+<ol class="breadcrumb">
+    <li>{{#link-to "pumper.index" model classNames='active'}}{{model.name}} {{model.lastName}} {{/link-to}}</li>
+    <li class="active">Songs</li>
+</ol>
+<table class="table table-striped">
+    <thead>
+    <tr>
+        <th>Name</th>
+        <th>Author</th>
+        <th>Genre</th>
+        <th>BPM</th>
+        <th>Mode</th>
+        <th>Difficulty</th>
+        <th>Score</th>
+        <th>Grade</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{#each song in model.songs}}
+        <tr>
+            <td>{{song.name}}</td>
+            <td>{{song.author}}</td>
+            <td>{{song.genre}}</td>
+            <td>{{song.BPM}}</td>
+            <td>{{song.mode}}</td>
+            <td>{{song.difficulty}}</td>
+            <td>{{song.score}}</td>
+            <td>{{song.grade}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
