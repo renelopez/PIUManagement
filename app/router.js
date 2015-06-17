@@ -14,6 +14,9 @@ Router.map(function() {
     this.resource('pumper.songs',{path:'/songs'});
     this.resource('pumper.tournaments',{path:'/tournaments'});
   });
+  this.resource('tournament',{path:'/tournament/:tournament_id'},function(){
+
+  })
 });
 
 export default Router;
