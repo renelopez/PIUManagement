@@ -1,0 +1,18 @@
+<div class="well">
+    <p class="text-center">
+        <img {{bind-attr src='tournament.logoURL'}} class="img-thumbnail img-rounded"/>
+    <h4>{{tournament.name}}</h4>
+    </p>
+    <table class="table table-striped">
+        <tbody>
+        <tr>
+            <td>Location</td>
+            <td>{{tournament.local.name}}</td>
+        </tr>
+        <tr>
+            <td>Attendees</td>
+            <td>{{attendeeCount}}</td>
+        </tr>
+        </tbody>
+    </table>
+</div>
