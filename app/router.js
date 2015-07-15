@@ -18,6 +18,11 @@ Router.map(function() {
   this.resource('tournament',{path:'/tournament/:tournament_id'},function(){
 
   });
+
+  this.resource('songs');
+  this.resource('song',{path:'/song/:song_id'},function(){
+
+  });
 });
 
 export default Router;

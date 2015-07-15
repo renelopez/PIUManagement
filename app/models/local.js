@@ -7,7 +7,8 @@ var Local= DS.Model.extend({
   endTime:DS.attr('number'),
   startDay:DS.attr('string'),
   endDay:DS.attr('string'),
-  machine:DS.hasMany('machine')
+  machine:DS.hasMany('machine'),
+  tournaments:DS.hasMany('tournament',{async:true})
 });
 
 Local.reopenClass({

@@ -16,7 +16,7 @@ Tournament.reopenClass({
       name:'PIU International Championship 2015',
       year:'2015',
       logoURL:'http://www.doublepump.com/Content/doublepump/img/tournaments/1.gif',
-      pumpersTournaments:[1,2],
+      pumpersTournaments:[1,2,3],
       local:1
     },
     {
@@ -24,7 +24,7 @@ Tournament.reopenClass({
       name:'PIU International Championship 2014',
       year:'2014',
       logoURL:'http://www.doublepump.com/Content/doublepump/img/tournaments/2.gif',
-      pumpersTournaments:[3,4],
+      pumpersTournaments:[4,5],
       local:2
     }
   ]

@@ -22,12 +22,18 @@ PumperTournament.reopenClass({
     },
     {
       id:3,
+      place:3,
+      pumper:4,
+      tournament:1
+    },
+    {
+      id:4,
       place:1,
       pumper:2,
       tournament:2
     },
     {
-      id:4,
+      id:5,
       place:2,
       pumper:1,
       tournament:2

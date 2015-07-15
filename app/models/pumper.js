@@ -36,7 +36,7 @@ Pumper.reopenClass({
       categories:[1,3],
       zone:1,
       songs:[1],
-      pumpersTournaments:[1,4]
+      pumpersTournaments:[1,5]
     },
     {
       id:2,
@@ -54,7 +54,7 @@ Pumper.reopenClass({
       categories:[1],
       zone:1,
       songs:[1,2],
-      pumpersTournaments:[2,3]
+      pumpersTournaments:[2,4]
     },
     {
       id:3,
@@ -71,7 +71,7 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1],
       zone:1,
-      songs:[1,3]
+      songs:[1,4]
     },{
       id:4,
       name:'Nayeli',
@@ -86,7 +86,8 @@ Pumper.reopenClass({
       addresses:[4],
       locals:[1],
       categories:[2],
-      zone:1
+      zone:1,
+      pumpersTournaments:[3]
     },
     {
       id:5,
