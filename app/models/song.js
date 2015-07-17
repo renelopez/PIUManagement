@@ -5,7 +5,7 @@ var Song= DS.Model.extend({
   author:DS.attr('string'),
   genre:DS.attr('string'),
   BPM:DS.attr('number'),
-  songModes:DS.hasMany('songMode')
+  songModes:DS.hasMany('songMode',{async:true})
 });
 
 Song.reopenClass({

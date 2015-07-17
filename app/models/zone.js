@@ -2,7 +2,7 @@ import DS from 'ember-data';
 
 var Zone=DS.Model.extend({
   name:DS.attr('string'),
-  pumpers:DS.hasMany('pumper')
+  pumpers:DS.hasMany('pumper',{async:true})
 });
 
 Zone.reopenClass({

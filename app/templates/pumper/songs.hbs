@@ -16,16 +16,16 @@
     </tr>
     </thead>
     <tbody>
-    {{#each song in model.songs}}
+    {{#each pumperSong in pumperSongs}}
         <tr>
-            <td>{{song.name}}</td>
-            <td>{{song.author}}</td>
-            <td>{{song.genre}}</td>
-            <td>{{song.BPM}}</td>
-            <td>{{song.mode}}</td>
-            <td>{{song.difficulty}}</td>
-            <td>{{song.score}}</td>
-            <td>{{song.grade}}</td>
+            <td>{{pumperSong.songMode.song.name}}</td>
+            <td>{{pumperSong.songMode.song.author}}</td>
+            <td>{{pumperSong.songMode.song.genre}}</td>
+            <td>{{pumperSong.songMode.song.BPM}}</td>
+            <td>{{pumperSong.songMode.mode.name}}</td>
+            <td>{{pumperSong.songMode.difficulty}}</td>
+            <td>{{pumperSong.score}}</td>
+            <td>{{pumperSong.grade}}</td>
         </tr>
     {{/each}}
     </tbody>

@@ -1,8 +1,8 @@
 import DS from 'ember-data';
 
 var PumperSongMode = DS.Model.extend({
-  pumper:DS.belongsTo('pumper'),
-  songMode:DS.belongsTo('songMode'),
+  pumper:DS.belongsTo('pumper',{async:true}),
+  songMode:DS.belongsTo('songMode',{async:true}),
   score:DS.attr('number'),
   grade:DS.attr('string')
 });

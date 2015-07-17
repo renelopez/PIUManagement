@@ -13,7 +13,7 @@ var Pumper= DS.Model.extend({
   addresses:DS.hasMany('address',{async:true}),
   locals:DS.hasMany('local',{async:true}),
   categories:DS.hasMany('category',{async:true}),
-  songs:DS.hasMany('song',{async :true}),
+  pumperSongModes:DS.hasMany('pumperSongMode',{async :true}),
   zone:DS.belongsTo('zone',{async:true}),
   pumpersTournaments:DS.hasMany('pumperTournament',{async:true})
 });
@@ -35,7 +35,7 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1,3],
       zone:1,
-      songs:[1],
+      pumperSongModes:[1,2,3],
       pumpersTournaments:[1,5]
     },
     {
@@ -53,7 +53,6 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1],
       zone:1,
-      songs:[1,2],
       pumpersTournaments:[2,4]
     },
     {
@@ -71,7 +70,7 @@ Pumper.reopenClass({
       locals:[1],
       categories:[1],
       zone:1,
-      songs:[1,4]
+      pumperSongModes:[5]
     },{
       id:4,
       name:'Nayeli',

@@ -9,8 +9,7 @@ Mode.reopenClass({
     {
       id:1,
       name:'Single'
-    }
-    ,
+    },
     {
       id:2,
       name:'Double'

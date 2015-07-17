@@ -1,11 +1,10 @@
 import DS from 'ember-data';
 
 var SongMode= DS.Model.extend({
-  song:DS.belongsTo('song'),
-  mode:DS.belongsTo('mode'),
-  difficulty:DS.attr('number'),
-  score:DS.attr('number'),
-  grade:DS.attr('string')
+  song:DS.belongsTo('song',{async:true}),
+  mode:DS.belongsTo('mode',{async:true}),
+  pumperSongModes:DS.hasMany('pumperSongMode',{async:true}),
+  difficulty:DS.attr('number')
 });
 
 SongMode.reopenClass({
@@ -13,34 +12,29 @@ SongMode.reopenClass({
     {
       id:1,
       song:1,
+      pumperSongModes:[1],
       mode:1,
-      difficulty:20,
-      score:29293921,
-      grade:'A'
+      difficulty:20
     },
     {
       id:2,
       song:1,
       mode:2,
-      difficulty:12,
-      score:2932321,
-      grade:'B'
+      pumperSongModes:[2],
+      difficulty:12
     },
     {
       id:3,
       song:1,
       mode:3,
-      difficulty:12,
-      score:2921,
-      grade:'C'
+      pumperSongModes:[3],
+      difficulty:12
     },
     {
       id:4,
       song:1,
       mode:4,
-      difficulty:2,
-      score:21,
-      grade:'D'
+      difficulty:2
     }
   ]
 });
